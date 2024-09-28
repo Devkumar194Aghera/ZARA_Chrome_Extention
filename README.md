@@ -22,8 +22,9 @@ This Chrome extension extracts product information (such as name, image, price, 
 First, clone this repository to your local machine:
 
 ```bash
-git clone https://github.com/your-repo/zara-product-scraper-extension.git
-cd zara-product-scraper-extension
+git clone https://github.com/Devkumar194Aghera/ZARA_Chrome_Extention.git
+
+cd ZARA_Chrome_Extention
 ```
 
 ### 2. Load the Extension in Chrome
