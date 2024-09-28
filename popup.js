@@ -54,8 +54,8 @@ function updateProductList(products) {
 
 function fetchSimilarProducts(productName) {
   if (productName === "Name not found") return;
-  const apiKey = "AIzaSyDpR5VAUDp1iXV3ILV68FLMvcigASqWGOE"; // Replace with your Google API key
-  const cx = "60439e3274cc9409e"; // Replace with your Search Engine ID
+  const apiKey = "You Serach API key"; // Replace with your Google API key
+  const cx = "You Engine ID"; // Replace with your Search Engine ID
   const apiUrl = `https://www.googleapis.com/customsearch/v1?key=${apiKey}&cx=${cx}&q=products+similar+to+${encodeURIComponent(
     productName
   )}`;
